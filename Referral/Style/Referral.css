@@ -1,0 +1,934 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body {
+   -webkit-overflow-scrolling: touch;
+}
+
+
+body {
+   margin: 0 auto;
+   overflow-x: hidden;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+#ke_logo_header {
+   width: 100%;
+   height: 100px;
+   display: block;
+   background-color: #0082c8;
+   padding: 0;
+   margin: 0;
+}
+
+.ke_logo_image {
+   max-width: 326px;
+   height: 100px;
+   background: url("../image/ke_logo_header_white.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin: 0 auto;
+   cursor: pointer;
+}
+
+
+#top_banner_image_and_icons_section_container {
+   height: auto;
+   width: 100%;
+   display: block;
+   margin: 0;
+   position: relative;
+   overflow: auto;
+}
+
+#thanks_banner_image_and_icons_section_container {
+   height: auto;
+   width: 100%;
+   display: block;
+   box-sizing: border-box;
+   padding: 12% 0 12% 0;
+   margin: 0;
+   position: relative;
+   overflow: auto;
+   background-image: url("../image/top_banner_image.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+
+#top_banner_image {
+   width: 100%;
+   min-height: 470px;
+   display: block;
+   margin: 0;
+   overflow: auto;
+   background-image: url('../image/top_banner_image.jpg');
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 250px;
+}
+
+   #top_banner_image p {
+      display: block;
+      margin: 40px auto;
+      padding: 0 5px 0 5px;
+      font-size: 50px;
+      line-height: 60px;
+      color: #FFF;
+      font-weight: 600;
+      text-align: center;
+   }
+
+#thanks_banner_image p {
+   display: block;
+   box-sizing: border-box;
+   margin: 0 auto;
+   padding: 40px 5px 0 5px;
+   font-size: 50px;
+   line-height: 60px;
+   color: #FFF;
+   font-weight: 600;
+   text-align: center;
+   line-height: 50px;
+}
+
+#icons_section {
+   min-height: 280px;
+   width: 95%;
+   display: block;
+   position: absolute;
+   top: 400px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: 999;
+   text-align: center;
+   overflow: auto;
+}
+
+
+.icons_individual_container {
+   min-height: 300px;
+   width: 200px;
+   display: inline-block;
+   margin: 0 auto;
+   padding: 0;
+   margin-right: 150px;
+   overflow: auto;
+}
+
+
+.icons_individual_container_last {
+   margin-right: 0;
+}
+
+
+.icons_individual_image {
+   height: 180px;
+   width: 180px;
+   display: block;
+   margin: 0 auto;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+
+#icons_individual_container_step1 {
+   background-image: url('../image/family_icon_orange.png');
+}
+
+
+#icons_individual_container_step2 {
+   background-image: url('../image/form_icon_green.png');
+}
+
+
+#icons_individual_container_step3 {
+   background-image: url('../image/gift_icon_purple.png');
+}
+
+
+.icons_individual_container p.icon_title {
+   display: block;
+   width: 100%;
+   text-align: center;
+   font-size: 25px;
+   line-height: 30px;
+   font-weight: bold;
+   color: #0082c8;
+   padding: 0;
+   margin: 0;
+   margin-top: 15px;
+}
+
+
+.icons_individual_container p.icon_text {
+   display: block;
+   width: 100%;
+   text-align: center;
+   font-size: 17px;
+   color: #565656;
+   padding: 0;
+   margin: 0;
+   margin-top: 8px;
+}
+
+
+#select_gift_container {
+   min-height: 400px;
+   width: 100%;
+   display: block;
+   margin: 10px auto;
+   text-align: center;
+   border-top: solid 1px #cfd5e1;
+   overflow: auto;
+   background-color: #f4f4f4;
+   margin-bottom: 0;
+}
+
+
+   #select_gift_container p.select_gift_title {
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      line-height: 30px;
+      color: #565656;
+      padding: 0;
+      margin: 0;
+      margin-top: 30px;
+      margin-bottom: 30px;
+   }
+
+
+.gift_box_container {
+   min-height: 330px;
+   width: 300px;
+   display: inline-block;
+   margin: 0 auto;
+   padding: 0;
+   margin-right: 50px;
+   margin-bottom: 30px;
+   background-color: #ffffff;
+   overflow: auto;
+   -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+   -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+   box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.20);
+}
+
+
+.gift_box_container_last {
+   margin-right: 0;
+}
+
+
+.gift_box_container p.gift_title {
+   display: block;
+   width: 100%;
+   text-align: center;
+   font-size: 20px;
+   line-height: 30px;
+   color: #565656;
+   padding: 0;
+   margin: 0;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+
+.gift_box_line {
+   height: 2px;
+   width: 90%;
+   display: block;
+   margin: 0 auto;
+   background-color: #0082c8;
+}
+
+
+.gift_image {
+   height: 150px;
+   width: 250px;
+   display: block;
+   margin: 20px auto;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+
+#gift_image_01 {
+   background-image: url('../image/gift_image_01.jpg');
+}
+
+
+#gift_image_02 {
+   background-image: url('../image/gift_image_02.jpg');
+}
+
+
+#gift_image_03 {
+   background-image: url('../image/gift_image_03.jpg');
+}
+
+
+.gift_select_btn {
+   height: 50px;
+   width: 70%;
+   min-width: 180px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   display: block;
+   cursor: pointer;
+}
+
+.gift_select_btn_default {
+   background-color: #0082c8;
+}
+
+.gift_select_btn_clicked {
+   background-color: #F90;
+   transition: background-color 0.15s ease;
+}
+
+.gift_select_btn p {
+   height: 100%;
+   width: 100%;
+   display: block;
+   text-align: center;
+   font-size: 12px;
+   line-height: 50px;
+   color: #FFF;
+   font-size: 16px;
+}
+
+#who_are_you_continer {
+   min-height: 250px;
+   width: 100%;
+   overflow: auto;
+   background-image: url('../image/who_are_you_bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding: 0;
+}
+
+
+   #who_are_you_continer p.who_are_you_title,
+   #who_are_you_continer p.who_are_you_text {
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      line-height: 30px;
+      color: #FFF;
+      box-sizing: border-box;
+      padding-top: 20px;
+      margin: 0;
+      margin-bottom: 20px;
+   }
+
+
+   #who_are_you_continer p.who_are_you_text {
+      margin-top: 0px;
+      font-size: 20px;
+   }
+
+
+#who_are_you_fields_container {
+   height: auto;
+   width: 100%;
+   text-align: center;
+   margin: 0 auto;
+   overflow: auto;
+   margin-bottom: 25px;
+}
+
+
+.who_are_you_field {
+   outline: none;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   background: rgba(255, 255, 255, 0.25);
+   margin: 0 auto;
+   margin-bottom: 0px;
+   margin-right: 20px;
+   border: 2px solid #FFF;
+   border-radius: 2px;
+   padding: 15px;
+   display: inline-block;
+   font-size: 14px;
+   text-align: left;
+   color: #FFF;
+   width: 33%;
+   min-width: 200px;
+}
+
+.who_are_you_last {
+   margin-right: 0;
+}
+
+
+::-webkit-input-placeholder {
+   color: #FFF;
+}
+
+
+:-moz-placeholder {
+   color: #FFF;
+}
+
+
+::-moz-placeholder {
+   color: #FFF;
+}
+
+
+:-ms-input-placeholder {
+   color: #FFF;
+}
+
+
+:focus::-webkit-input-placeholder {
+   color: #CCC;
+}
+
+
+:focus:-ms-input-placeholder {
+   color: #CCC;
+}
+
+
+:focus::-moz-placeholder {
+   color: #CCC;
+   opacity: 1;
+}
+
+
+:focus:-moz-placeholder {
+   color: #CCC;
+   opacity: 1;
+}
+
+
+.who_are_you_field_user_name,
+.who_are_you_field_user_contact,
+.who_are_you_field_email {
+   padding-left: 45px;
+   background-repeat: no-repeat;
+   background-position: 20px 50%;
+}
+
+.who_are_you_field_email,
+.who_are_you_field_user_contact {
+   margin-top: 20px;
+}
+
+.who_are_you_field_user_name {
+   background-image: url("../image/name_icon.png");
+}
+
+
+   .who_are_you_field_user_name:focus {
+      background: url('../image/name_icon_focus.png');
+      padding-left: 45px;
+      background-color: #FFF;
+      background-repeat: no-repeat;
+      background-position: 20px 50%;
+      color: #565656;
+   }
+
+.who_are_you_field_email {
+   background-image: url("../image/email_icon.png");
+}
+
+   .who_are_you_field_email:focus {
+      background: url('../image/email_icon_focus.png');
+      padding-left: 45px;
+      background-color: #FFF;
+      background-repeat: no-repeat;
+      background-position: 20px 50%;
+      color: #565656;
+   }
+
+
+.who_are_you_field_user_contact {
+   background-image: url("../image/contact_icon.png");
+}
+
+
+   .who_are_you_field_user_contact:focus {
+      background: url('../image/contact_icon_focus.png');
+      padding-left: 45px;
+      background-color: #FFF;
+      background-repeat: no-repeat;
+      background-position: 20px 50%;
+      color: #565656;
+   }
+
+
+#referral_form_heading_container {
+   height: 100px;
+   width: 100%;
+   display: block;
+   margin: 0px auto;
+   background-color: #0082c8;
+   padding: 0;
+   text-align: center;
+   position: relative;
+}
+
+
+   #referral_form_heading_container p {
+      text-align: center;
+      font-size: 25px;
+      line-height: 100px;
+      color: #FFF;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+   }
+
+
+#referral_form_container {
+   height: auto;
+   min-height: 300px;
+   width: 100%;
+   text-align: center;
+   background-image: url('../image/referral_bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow: auto;
+   position: relative;
+}
+
+
+#referral_form_container_arrow {
+   height: 50px;
+   width: 100%;
+   background-image: url('../image/referral_form_container_arrow.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center top;
+   position: absolute;
+   z-index: 10;
+   margin-left: auto;
+   margin-right: auto;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+
+#referral_space {
+   height: 30px;
+   width: 100%;
+   display: block;
+}
+
+
+#referral_boxes {
+   height: auto;
+   display: block;
+   margin: 0 auto;
+   padding: 0;
+   margin-bottom: 40px;
+}
+
+
+.referral_box {
+   height: auto;
+   min-height: 100px;
+   width: 33%;
+   display: inline-block;
+   overflow: auto;
+   background-color: #e6e5e4;
+   margin: 20px auto;
+   margin-right: 20px;
+   margin-bottom: 0;
+   border-radius: 2px;
+   box-sizing: border-box;
+   padding: 25px 40px 25px 40px;
+}
+
+
+.referral_box_odd {
+   margin-right: 0px;
+}
+
+
+.referral_box p.referral_box_title {
+   display: block;
+   width: 100%;
+   text-align: left;
+   font-size: 18px;
+   line-height: 20px;
+   color: #0082c8;
+   font-weight: bold;
+   padding: 0;
+   margin: 0;
+   margin-bottom: 10px;
+}
+
+
+.referral_field {
+   outline: none;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   background: rgba(255, 255, 255, 0.25);
+   margin: 10px auto;
+   margin-bottom: 0px;
+   margin-right: 20px;
+   border: 2px solid #b6b6b6;
+   border-radius: 2px;
+   padding: 15px;
+   display: inline-block;
+   font-size: 14px;
+   text-align: left;
+   color: #b6b6b6;
+   width: 100%;
+}
+
+
+   .referral_field::-webkit-input-placeholder {
+      color: #565656;
+   }
+
+
+   .referral_field::-moz-placeholder {
+      color: #565656;
+   }
+
+
+   .referral_field::-moz-placeholder {
+      color: #565656;
+   }
+
+
+   .referral_field:-ms-input-placeholder {
+      color: #b6b6b6;
+   }
+
+
+   .referral_field:focus::-`-input-placeholder {
+      color: #CCC;
+   }
+
+
+   .referral_field:focus:-ms-input-placeholder {
+      color: #CCC;
+   }
+
+
+   .referral_field:focus::-moz-placeholder {
+      color: #CCC;
+      opacity: 1;
+   }
+
+
+   .referral_field:focus:-moz-placeholder {
+      color: #CCC;
+      opacity: 1;
+   }
+
+
+.select_row {
+   color: #565656;
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+/*	
+=============================================
+IE specific CSS to get custom drop down arrow
+=============================================
+*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   .referral_field_referral_kids {
+      background: url("../image/arrow_down.png");
+      background-repeat: no-repeat;
+      background-position: 95% 50%;
+   }
+
+   select::-ms-expand {
+      display: none;
+   }
+}
+
+.referral_field_referral_name,
+.referral_field_referral_contact {
+   padding-left: 45px;
+   background-repeat: no-repeat;
+   background-position: 20px 50%;
+   background-color: #FFF;
+   color: #565656;
+}
+
+
+.referral_field_referral_name {
+   background-image: url("../image/name_icon_focus.png");
+}
+
+
+   .referral_field_referral_name:focus {
+      background: url('../image/name_icon_focus.png');
+      padding-left: 45px;
+      background-color: #FFF;
+      background-repeat: no-repeat;
+      background-position: 20px 50%;
+      color: #565656;
+   }
+
+
+.referral_field_referral_contact {
+   background-image: url("../image/contact_icon_focus.png");
+}
+
+
+   .referral_field_referral_contact:focus {
+      background: url('../image/contact_icon_focus.png');
+      padding-left: 45px;
+      background-color: #FFF;
+      background-repeat: no-repeat;
+      background-position: 20px 50%;
+      color: #565656;
+   }
+
+
+.referral_field_referral_kids {
+   background-image: url("../image/children_icon_focus.png"), url("../image/arrow_down.png");
+   margin-bottom: 10px;
+   padding-left: 45px;
+   background-repeat: no-repeat;
+   background-position: 20px 50%, 96% 50%;
+   background-color: #FFF;
+   color: #565656;
+}
+
+
+   .referral_field_referral_kids:focus {
+      background: url('../image/children_icon_focus.png');
+      padding-left: 45px;
+      background-color: #FFF;
+      background-repeat: no-repeat;
+      background-position: 20px 50%;
+      color: #565656;
+   }
+
+
+.referral_submit_btn {
+   height: 50px;
+   width: 300px;
+   min-width: 180px;
+   margin: 40px auto;
+   margin-bottom: 30px;
+   displat: block;
+   background-color: #0082c8;
+   cursor: pointer;
+}
+
+
+   .referral_submit_btn:hover {
+      background-color: #006da8;
+      transition: background-color 0.5s ease;
+   }
+
+
+   .referral_submit_btn p {
+      height: 100%;
+      width: 100%;
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      line-height: 50px;
+      color: #FFF;
+      font-size: 16px;
+   }
+
+#referral_boxes p.referral_conditions {
+   width: 90%;
+   height: auto;
+   display: block;
+   text-align: center;
+   color: #FFF;
+   padding: 0;
+   font-size: 15px;
+   margin: 20px auto;
+   margin-bottom: 60px;
+}
+
+
+.referral_conditions_bold {
+   font-weight: bold;
+}
+
+
+#temp_empty_div {
+   height: 200px;
+   width: 100%;
+   display: block;
+   background-color: orange;
+}
+
+/*** MEDIA QUERIES ***/
+@media screen and (max-width:1100px) {
+   .who_are_you_field {
+      width: 40%;
+   }
+
+   .referral_box {
+      width: 40%;
+   }
+
+   #thanks_banner_image p {
+      font-size: 28px;
+   }
+}
+
+@media screen and (max-width:960px) {
+   #top_banner_image {
+      min-height: 380px;
+      overflow: hidden;
+      margin-bottom: 0;
+   }
+
+   .thanks #top_banner_image {
+      min-height: 52vh;
+   }
+
+   #top_banner_image p, #thanks_banner_image p {
+      font-size: 30px;
+   }
+
+
+   #icons_section {
+      position: inherit;
+      top: 0;
+      margin: 35px auto 0;
+   }
+
+   .icons_individual_container {
+      margin-right: 80px;
+   }
+
+   .icons_individual_container_last {
+      margin-right: 0;
+   }
+}
+
+@media screen and (max-width:820px) {
+   .icons_individual_container {
+      margin-right: 30px;
+   }
+
+   .icons_individual_container_last {
+      margin-right: 0;
+   }
+}
+
+@media screen and (max-width:800px) {
+   .gift_box_container {
+      width: 80%;
+      clear: right;
+      margin-right: 0;
+   }
+}
+
+@media screen and (max-width:720px) {
+   #top_banner_image {
+      min-height: 300px;
+   }
+
+   .who_are_you_field {
+      width: 85%;
+      margin-top: 15px;
+      margin-right: 0;
+   }
+
+      .who_are_you_field:first-child {
+         margin-left: 0;
+      }
+
+   #who_are_you_fields_container {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   #icons_section {
+      overflow: hidden;
+      margin-top: 20px;
+   }
+
+   .icons_individual_container {
+      width: 100%;
+      clear: right;
+      min-height: 250px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #b6b6b6;
+   }
+
+      .icons_individual_container:first-child {
+         padding-top: 0;
+      }
+
+      .icons_individual_container:last-child {
+         border-bottom: 0;
+         padding-bottom: 0;
+      }
+
+   .icons_individual_image {
+      height: 150px;
+      width: 150px;
+   }
+
+   .referral_box {
+      width: 85%;
+      clear: right;
+      margin-right: 0;
+   }
+
+   .referral_box {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+}
+
+@media screen and (max-width:570px) {
+   #referral_form_heading_container p {
+      font-size: 21px;
+   }
+}
+
+@media screen and (max-width:480px) {
+   #referral_form_heading_container p {
+      line-height: normal;
+      padding-top: 25px;
+   }
+}
+
+@media screen and (max-width:420px) {
+   .gift_box_container {
+      width: 95%;
+   }
+
+   #who_are_you_fields_container {
+      width: 100%;
+   }
+
+   .who_are_you_field {
+      width: 95%;
+   }
+}

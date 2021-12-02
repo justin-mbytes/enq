@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_footer{
+	height:290px;
+	width:100%;
+	background-color:#0e2343;
+	display:block;
+	box-sizing:border-box;
+	padding:20px 0 20px 0;
+	clear:both;
+	display:table;
+	color:#FFF;
+	text-align:center;
+}
+
+#main_footer p{
+	font-size:16px;
+}
+
+#main_footer .footer-heading{
+	font-size:18px;	
+	padding:0;
+	margin:0;
+}
+
+.footer-blocks{
+	width:23%;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 auto;
+	margin-right:1%;
+	text-align:left;
+	overflow:hidden;
+}
+
+.footer-blocks:last-child{
+	margin-right:0;	
+}
+
+.footer-blocks a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.footer-blocks a:hover{
+	color:#ed1568;
+	text-decoration:underline;
+}
+
+.footer-heading{
+	font-weight:bold;	
+}
+
+.footer-ke-logo{
+	width:100%;
+	max-width:300px;
+	height:40px;
+	background:url('../img/ke_logo_white.png');	
+	background-repeat:no-repeat;
+	background-size:contain;
+	cursor:pointer;
+}
+
+.footer-social{
+	margin-top:15px;
+	vertical-align:top;	
+}
+
+.social-icon{
+	display:inline-block;
+	margin-right:-4px;
+	cursor:pointer;
+}
+
+.facebook-icon{
+	width:48px;
+	height:48px;
+	background:url('../img/facebook_icon.png');
+	background-repeat:no-repeat;
+}
+
+.googleplus-icon{
+	width:48px;
+	height:48px;
+	background:url('../img/googleplus_icon.png');
+	background-repeat:no-repeat;
+}
+
+.youtube-icon{
+	width:48px;
+	height:48px;
+	background:url('../img/youtube_icon.png');
+	background-repeat:no-repeat;
+}
+
+#footer_break{
+	display:none;
+}
+
+
+.footer-blocks a.distributors_link{
+	color:#3CF;
+}
+
+
+.footer-blocks a.distributors_link:hover{
+	text-decoration:none;
+}
+
+
+/** Media Queries **/
+@media screen and (max-width:1300px){
+.footer-blocks{
+	width:32.5%;
+	float:left;
+}
+
+.footer-blocks:first-child{
+	width:100%;	
+	margin-bottom:20px;
+}
+
+
+.footer-blocks:last-child{
+	float:right;
+}
+
+#main_footer p{
+	font-size:16px;
+}
+}
+
+@media screen and (max-width:850px){
+.footer-heading{
+	font-size:18px;
+}
+
+#main_footer p{
+	font-size:14px;
+}	
+
+.facebook-icon, .googleplus-icon, .youtube-icon{
+	width:30px;
+	height:30px;
+	background-size:contain;
+} 
+}
+
+@media screen and (max-width:750px){
+.footer-blocks{
+	width:100%;	
+	text-align:center;
+}
+
+.footer-ke-logo{
+	margin:0 auto;
+	background-position:center center;
+}
+
+#footer_break{
+	display:block;
+}
+
+.double_space{
+	display:none;
+}
+}
+
+@media screen and (max-width:750px){
+	#ptyltd_container{
+		min-width:inherit;
+		max-width:inherit;
+		width:80%;
+	}
+	
+	#ptyltd{
+		display:block;
+		min-width:inherit;
+		max-width:inherit;
+		width:100%;
+		margin-bottom:50px;
+	}
+}

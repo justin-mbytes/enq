@@ -1,0 +1,1343 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{
+	-webkit-overflow-scrolling:touch;
+	overflow-x:hidden;
+}
+
+
+body{
+	margin:0 auto;
+	font-family: 'Lato', sans-serif;
+	background-color:#cacaca;
+}
+
+
+html{
+	min-width:320px;
+}
+
+
+.section_title_bar_contents{
+	background-color:#178ccc;
+}
+
+
+#bt_contents_math,
+#bt_contents_english,
+#bt_contents_physics,
+#bt_contents_chemistry,
+#bt_contents_biology{
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:0;
+	min-width:320px;	
+}
+
+
+#bt_contents_math{
+	background-image:url('../img/bar_titles_contents_maths.png');
+	background-position:right;
+}
+
+
+#bt_contents_english{
+	background-image:url('../img/bar_titles_contents_english.png');
+	background-position:right;	
+}
+
+
+#bt_contents_physics{
+	background-image:url('../img/bar_titles_contents_physics.png');
+	background-position:right;
+}
+
+
+#bt_contents_chemistry{
+	background-image:url('../img/bar_titles_contents_chemistry.png');
+	background-position:right;	
+}
+
+
+#bt_contents_biology{
+	background-image:url('../img/bar_titles_contents_biology.png');
+	background-position:right;	
+}
+
+
+#contents_subjects{
+	height:45px;
+	width:100%;
+	display:block;
+	clear:both;
+	background-color:#178ccc;
+}
+
+
+.subject_btn{
+	height:100%;
+	width:19.84%;
+	margin-right:0.2%;
+	display:block;
+	float:left;
+	background-color:#0d2346;
+	cursor:pointer;
+}
+
+
+.subject_btn_last{
+	margin-right:0;
+}
+
+
+.subject_btn p{
+	line-height:45px;
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:13px;	
+	color:#FFF;
+}
+
+
+.subject_btn_selected{
+	background-color:#178ccc;
+}
+
+
+.contents{
+	background-color:#cacaca;
+	min-height:100vh;
+	height:auto;
+}
+
+
+.grade_container{
+	height:250px;
+	width:25%;
+	margin:0;
+	float:left;
+	padding:0;
+	display:block;
+	background-color:#f9f9f9;
+	position:relative;
+}
+
+
+.grade_container_odd{
+	background-color:#ededed;
+}
+
+
+.grade_container_content{
+	height:80%;
+	width:90%;
+	display:block;
+	margin:5%;
+}
+
+
+.subjects_hr{
+	border:solid 1px #0d2346;
+	margin:0;
+	padding:0;
+	clear:both;
+}
+
+
+p{
+	padding:0;
+	margin:0;
+}
+
+
+.grade_container_content p.grade_container_title{
+	font-size:22px;
+	color:#082649;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:30px;
+	text-align:left;
+}
+
+
+.grade_container_content p.grade_container_title_11_and_12{
+	font-size:22px;
+	color:#00459b;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:30px;
+	text-align:left;
+}
+
+
+.grade_container_content p.grade_container_curriculum{
+	font-size:14px;
+	font-weight:400;
+	color:#000;
+	text-transform:capitalize;
+	line-height:20px;
+	text-align:left;	
+}
+
+
+.grade_container_content p.grade_container_units_covered{
+	font-size:14px;
+	font-weight:400;
+	color:#178ccc;
+	line-height:20px;
+	text-align:left;
+	margin-top:5px;	
+}
+
+
+.grade_container_content ul{
+	font-size:13px;
+	font-weight:400;
+	color:#3B3B3B;
+	line-height:18px;
+	text-align:left;
+	padding:0 0 0 16px;
+	margin:0;
+}
+
+
+.view_more_btn{
+	background-color:#ed7314;
+	height:39px;
+	width:30%;
+	display:table;
+	position:absolute;
+	bottom:10%;
+	left:5%;
+	cursor:pointer;
+	-webkit-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+	-moz-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+	box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+}
+
+
+.view_more_btn p{
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	font-size:13px;
+	color:#FFF;
+	text-align:center;
+	display:table-cell; 
+	vertical-align:middle;
+	text-transform:uppercase;
+}
+
+
+.grade_stats_container{
+	height:55px;
+	width:55%;
+	display:block;
+	position:absolute;
+	bottom:10%;
+	right:5%;
+}
+
+
+.grade_stats_box{
+	height:39px;
+	width:70px;
+	display:block;
+	margin-left:10px;
+	float:right;
+}
+
+
+.grade_stats_box_first{
+	margin-left:0;
+}
+
+
+.grade_stats_box span{
+	height:24px;
+	width:100%;
+	display:block;
+	margin-bottom:2px;
+}
+
+
+.lessons_icon,
+.tests_icon,
+.games_icon{
+	background-size:auto;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+
+.lessons_icon{
+	background-image:url("../img/lessons_icon.png");
+}
+
+
+.tests_icon{
+	background-image:url("../img/tests_icon.png");
+}
+
+
+.games_icon{
+	background-image:url("../img/games_icon.png");
+}
+
+
+.grade_stats_box p{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:13px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:13px;
+	color:#282828;
+	text-transform:capitalize;	
+}
+
+
+#search_container{
+	height:30px;
+	width:250px;
+	padding:0;
+	margin:25px 0 0 20.5px;
+	display:block;
+	position:absolute;
+	z-index:99;
+	overflow-x:hidden;
+	display:none;
+}
+
+
+#search_btn{
+	height:30px;
+	width:30px;
+	display:block;
+	cursor:pointer;
+	float:left;
+	background-color:#ed7314;
+	padding:0;
+	margin:0;
+	background-size:auto;
+	background-repeat:no-repeat;
+	background-position:center;	
+	background-image:url("../img/search_icon.png");
+	display:none;	
+}
+
+
+.search_box_input{
+	width:200px;
+	height:30px;
+	border:none;
+	padding:0 10px 0 10px;
+	float:left;
+	color:#2C2C2C;
+}
+
+
+.search_box_input:focus{
+	outline:none;
+}
+
+
+::-webkit-input-placeholder{
+	color:#ADADAD;
+	font-style:italic;
+}
+
+
+:-moz-placeholder{
+	color:#ADADAD;  
+	font-style:italic;   
+}
+
+
+::-moz-placeholder{
+	color:#ADADAD;  
+	font-style:italic;   
+}
+
+
+:-ms-input-placeholder{
+	color:ADADAD; 
+	font-style:italic;       
+}
+
+
+.eleven_and_twelve_btn{
+	height:38px;
+	width:32%;
+	background-color:#2196f3;
+	margin-right:2%;
+	margin-top:10px;
+	display:table;
+	float:left;
+	cursor:pointer;
+	padding:0;
+	-webkit-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+	-moz-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+	box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);	
+}
+
+
+.eleven_and_twelve_btn_last{
+	margin-right:0;
+	float:right;
+}
+
+
+.eleven_and_twelve_btn p{
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	font-size:13px;
+	color:#FFF;
+	text-align:center;
+	display:table-cell; 
+	vertical-align:middle;
+	text-transform:uppercase;
+}
+
+
+.eleven_and_twelve_all_btn{
+	height:38px;
+	width:100%;
+	display:table;
+	float:left;
+	background-color:#2196f3;
+	margin-top:15px;
+	cursor:pointer;
+	padding:0;
+	-webkit-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+	-moz-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+	box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);	
+}
+
+
+.eleven_and_twelve_all_btn p{
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	font-size:13px;
+	color:#FFF;
+	text-align:center;
+	display:table-cell; 
+	vertical-align:middle;
+	text-transform:uppercase;
+}
+
+
+.all,
+.vce,
+.act,
+.sace,
+.wace,
+.hsc,
+.qld,
+.all_english,
+.vce_english,
+.act_english,
+.sace_english,
+.wace_english,
+.hsc_english,
+.qld_english,
+.all_physics,
+.vce_physics,
+.act_physics,
+.sace_physics,
+.wace_physics,
+.hsc_physics,
+.qld_physics,
+.all_chemistry,
+.vce_chemistry,
+.act_chemistry,
+.sace_chemistry,
+.wace_chemistry,
+.hsc_chemistry,
+.qld_chemistry,
+.all_biology,
+.vce_biology,
+.act_biology,
+.sace_biology,
+.wace_biology,
+.hsc_biology,
+.qld_biology{
+	display:none;
+}
+
+
+.eleven_and_twelve_btn_selected{
+	background-color:#104a77;
+}
+
+
+.grade_container_blank{
+	background-color:#cacaca;
+}
+
+
+#contents_english,
+#contents_physics,
+#contents_chemistry,
+#contents_biology{
+	display:none;
+}
+
+
+#media_gap{
+	width:100%;
+	height:30px;
+	display:none;
+}
+
+
+.mobile_contents_subject_btn{
+	height:40px;
+	width:100%;
+	position:absolute;
+	z-index:60;
+	margin:0 auto;
+	padding:0;
+	display:none;
+}
+
+
+#mob_subject_menu_container{
+	width:100%;
+	height:0px;
+	z-index:50;
+    position:fixed;
+	top:80px;
+	display:none;
+	-webkit-box-shadow:0px 7px 21px 1px rgba(0,0,0,0.46);
+	-moz-box-shadow:0px 7px 21px 1px rgba(0,0,0,0.46);
+	box-shadow:0px 7px 21px 1px rgba(0,0,0,0.46);
+	overflow-y:hidden;
+    -moz-transition:height .5s;
+    -ms-transition:height .5s;
+    -o-transition:height .5s;
+    -webkit-transition:height .5s;
+    transition:height .5s;
+}
+
+
+#mob_subject_menu{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	background-color:#E2E2E2;
+	display:block;
+	overflow-x:hidden;
+}
+
+
+.mob_subject_menu_row{
+	height:40px;
+	width:100%;
+	background-color:#FFF;
+	margin:0px;
+	margin-bottom:1px;
+	cursor:pointer;
+}
+
+
+.mob_subject_menu_row p{
+	padding:0;
+	margin:0;
+	width:95%;
+	text-align:left;
+	margin-left:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	line-height:40px;
+}
+
+
+#mobile_subject_arrow{
+	height:40px;
+	width:40px;
+	display:block;
+	background-image:url('../img/arrow_down.png');
+	background-size:auto;
+	background-repeat:no-repeat;
+	float:right;
+	right:8px;
+	position:absolute;
+	z-index:55;
+	display:none;
+}
+
+
+#bt_contents_math p.bar_title,
+#bt_contents_english p.bar_title,
+#bt_contents_physics p.bar_title,
+#bt_contents_chemistry p.bar_title,
+#bt_contents_biology p.bar_title{
+	display:none;
+}
+
+
+#contents_math,
+#contents_english,
+#contents_physics,
+#contents_chemistry,
+#contents_biology{
+	display:none;
+}
+
+
+#select_subject{
+	min-height:100%;
+	width:100%;
+	background-color:rgba(40, 40, 40, 0.995);
+	position:absolute;
+	top:0;
+	z-index:99;
+	text-align:center;
+	display:none;
+	min-width:320px;	
+}
+
+
+#select_curriculum{
+	min-height:100%;
+	width:100%;
+	background-color:rgba(40, 40, 40, 0.995);
+	position:absolute;
+	top:0;
+	z-index:98;
+	text-align:center;
+	min-width:320px;	
+}
+
+
+select.curriculum_dropdown{
+	-webkit-transition:all 0.30s ease-in-out;
+	-moz-transition:all 0.30s ease-in-out;
+	-ms-transition:all 0.30s ease-in-out;
+	-o-transition:all 0.30s ease-in-out;
+	outline:none;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+    padding:25px;
+	display:inline-block;
+	width:200px;
+	font-size:18px;
+	text-align:left;
+	color:#535353;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+	background-color:#FFF;
+	background-image:url('../img/select_arrow.png');
+	background-position:right center;
+	background-size:8%;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+
+select::-ms-expand{
+    display:none;
+}
+
+
+#select_curriculum p{
+	height:auto;
+	width:80%;
+	margin:50px auto;
+	padding:0;
+	display:block;
+	font-size:17px;
+	line-height:25px;
+	color:#FFFFFF;
+	margin-bottom:0px;
+}
+
+
+.general_btn{
+	height:80px;
+	width:99%;
+	display:inline-table;
+	border:none;
+	background-color:#F60;
+	padding:0;
+	-webkit-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+	-moz-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);
+	box-shadow:0px 2px 2px 2px rgba(0,0,0,0.15);	
+	margin:10px auto;
+	cursor:pointer;
+}
+
+
+.general_btn:hover{
+	background-color:#F60;	
+	border:none;
+}
+
+
+.general_btn a{
+	text-decoration:none;
+	outline:none;
+	padding:0 15px 0 15px;
+	margin:0;
+	height:100%;	
+	width:100%;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+	display:table-cell; 
+	vertical-align:middle; 
+	text-align:center;
+}
+
+
+#ok_btn{
+	display:none;
+}
+
+
+span#ar_text{
+	display:block;
+	margin-top:20px;
+}
+
+
+.two_btn,
+.two_btn_lightbox{
+	width:30%;
+}
+
+
+.two_btn_left{
+	margin-right:25px;
+}
+
+
+.title_text{
+	font-family:'Montserrat', sans-serif;	
+	font-size:45px;
+	line-height:60px;
+	color:#FFF;
+	width:100%;
+	display:block;
+	margin-top:80px;
+	text-align:center;
+	text-shadow:3px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+
+#grade_select_div{
+	width:80%;
+	text-align:center;
+	margin:20px auto;
+	margin-bottom:20px;
+}
+
+
+#grade_select{
+	width:30%;
+	text-align-last:center;
+}
+
+
+#curr_label{
+	display:inline-table;
+	width:80px;
+	height:30px;
+	position:absolute;
+	margin:25px 0 0 20px;
+}
+
+
+#curr_label p{
+	display:inline-cell;
+	width:100%;
+	height:100%;
+	font-size:12px;
+	color:#FFF;
+	display:table-cell;
+	vertical-align:middle; 
+	text-align:left;	
+}
+
+
+.curr_select{
+	display:inline-block;
+	width:280px;
+	height:30px;
+	position:absolute;
+	margin:25px 0 0 95px;
+	padding:0 0 0 10px;
+	font-size:12px;
+	border:0;
+	box-sizing:border-box;
+	color:#535353;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+	background-color:#FFF;
+	background-image:url(../img/contents-down.png);
+	background-position:right;
+	background-repeat:no-repeat;
+    background-position:right;	
+    -webkit-border-radius:0;
+    border-radius:0px;
+}
+
+
+#mob_dropdown{
+	display:none;
+	clear:both;
+	width:100%;
+}
+	
+		
+.mob_curriculum_dropdown{
+	display:inline-block;
+	width:100%;
+	height:40px;
+	position:fixed;
+	z-index:9;
+	margin:40px 0 0 0;
+	padding:0 0 0 20px;
+	font-size:14px;
+	text-align:justify;
+	border:0;
+	box-sizing:border-box;
+	color:#535353;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+	background-color:#FFF;
+	background-image:url('../img/contents-down.png');
+	background-position:97.5% 50%;
+	background-repeat:no-repeat;
+    -webkit-border-radius:0;
+    border-radius:0px;
+	outline:none;
+	-webkit-box-shadow:0px 1px 1px 1px rgba(0,0,0,0.10);
+	-moz-box-shadow:0px 1px 1px 1px rgba(0,0,0,0.10);
+	box-shadow:0px 1px 1px 1px rgba(0,0,0,0.10);
+}
+
+
+.mob_curriculum_dropdown:focus{
+	outline:none;	
+}
+
+
+.mob_subject_btn{
+	height:50px;
+	clear:both;
+}
+
+
+#scrolled_nav{
+	opacity:100;
+}
+
+#contents_image{
+	background-image:url('../img/contents_banner_bg.jpg');
+	background-size:cover;
+	background-position:center;
+}
+
+#contents_banner{
+	height:200px;
+	width:100%;
+	display:block;
+	background-image:url('../img/contents_banner_bg.jpg');
+	background-size:cover;
+	background-position:center;
+	margin:0 auto;
+	padding:0;
+}
+
+/** Media Queries **/
+
+@media screen and (max-width:1920px){
+.title_text{
+	font-size:30px;
+}
+}
+
+
+@media screen and (max-width:1800px){
+.grade_container{
+	height:340px;
+}
+
+.view_more_btn{
+	width:50%;
+	display:table;
+	position:absolute;
+	bottom:90px;	
+}
+
+
+.grade_stats_container{
+	left:5%;
+	width:90%;
+	bottom:3%;
+}
+
+
+.grade_stats_box{
+	float:left;
+	margin-left:0;
+	margin-right:5px;
+}
+
+
+.grade_stats_box_first{
+	margin-right:0;
+}
+}
+
+
+@media screen and (max-width:1400px){
+.curr_select{
+	margin-top:15px;
+}
+
+
+#curr_label{
+	margin-top:15px;
+}
+
+
+#sn1, #sn2, #sn3, #sn4, #sn6, #sn7{
+	display:block;
+}
+}
+
+
+@media screen and (max-width:2000px){
+#sn1, #sn2, #sn3, #sn4, #sn6, #sn7{
+	margin-top:15px;
+}
+}
+
+
+@media screen and (max-width:1100px){
+#sn1, #sn2, #sn3, #sn4, #sn6, #sn7{
+	display:none;
+}
+
+
+#grade_select{
+	width:60%;
+}
+}
+
+
+@media screen and (max-width:1080px){
+select.curriculum_dropdown{
+    padding:15px;
+	font-size:13px;
+}
+
+
+.grade_container{
+	width:33.33%;
+	background-color:#f9f9f9;	
+}
+
+
+.grade_container_odd{
+	background-color:#f9f9f9;
+}
+
+
+.tablet{
+	background-color:#ededed;
+}
+}
+
+
+@media screen and (max-width:950px){
+.curr_select{
+	height:25px;
+	margin-top:68px;
+	padding-top:0;
+	float:right;
+	right:30px;
+}
+
+
+#curr_label{
+	height:25px;
+	margin-top:68px;
+	float:right;
+	right:305px;		
+}
+
+
+#curr_label p{
+	color:#333;
+}
+
+
+#contents_math,
+#contents_english,
+#contents_physics,
+#contents_chemistry,
+#contents_biology{
+	margin-top:40px;
+}
+}
+
+
+@media screen and (max-width:800px){
+.curr_select{
+	height:25px;
+	margin-top:48px;
+	padding-top:0;
+	right:20px;	
+}
+
+
+#curr_label{
+	height:25px;
+	margin-top:48px;
+	right:295px;
+}
+
+
+#contents_math,
+#contents_english,
+#contents_physics,
+#contents_chemistry,
+#contents_biology{
+	margin-top:40px;
+}
+
+
+.grade_container{
+	height:320px;
+}
+
+	
+#media_gap{
+	display:block;
+}
+
+
+.section_title_bar_contents{
+	background-color:#178ccc;
+}
+
+
+#contents_subjects{
+	height:30px;
+}
+
+
+.subject_btn p{
+	line-height:30px;
+	font-size:12px;	
+}
+
+
+li:before{
+        content:"";
+        margin-left:-5px;
+}
+
+
+.grade_container_content p.grade_container_title{
+	font-size:16px;
+	line-height:20px;
+}
+
+
+.grade_container_content p.grade_container_title_11_and_12{
+	font-size:16px;
+	line-height:20px;
+}
+
+
+.grade_container_content p.grade_container_curriculum{
+	font-size:13px;
+	line-height:16px;	
+}
+
+
+.grade_container_content p.grade_container_units_covered{
+	font-size:13px;
+	line-height:16px;
+}
+
+
+.grade_container_content ul{
+	font-size:12px;
+	line-height:16px;
+}
+
+
+.view_more_btn{
+	width:90%;
+	bottom:80px;
+	left:0;
+    right:0;
+    margin-left:15px;
+    margin-right:auto;
+}
+
+
+.grade_stats_container{
+	left:5%;
+	width:90%;
+	bottom:3%;
+}
+
+
+.grade_stats_box{
+	float:none;
+	margin:0 auto;
+	display:inline-block;
+	width:31.5%;
+	margin-right:1%;
+}
+
+
+.grade_stats_box_first{
+	margin-right:0;
+	float:right;
+}
+
+
+.grade_stats_box span{
+	height:18px;
+}
+
+
+.lessons_icon,
+.tests_icon,
+.games_icon{
+	background-size:contain;
+}
+
+
+.grade_stats_box p{
+	font-size:10px;
+	line-height:11px;
+}
+
+#media_gap{
+	display:none;
+}
+}
+
+
+@media screen and (max-width:720px){
+.grade_container{
+	width:50%;
+	background-color:#f9f9f9;	
+}
+
+#media_gap{
+	display:none;
+}
+
+
+.tablet,
+.grade_container_odd{
+	background-color:#f9f9f9;
+}
+
+
+.portrait{
+	background-color:#ededed;
+}
+
+
+.grade_stats_box{
+	float:left;
+}
+
+
+.grade_stats_box_first{
+	float:left;
+}
+}
+
+
+@media screen and (max-width:650px){
+.title_text{
+	font-size:22px;
+}
+}
+
+
+@media screen and (max-width:590px){
+.single_btn{
+	width:70%;
+}
+}
+
+
+@media screen and (max-width:425px){
+.title_text{
+	margin-top:40px;
+}
+
+
+.curr_select{
+	margin-top:5px;
+}
+
+
+#curr_label{
+	margin-top:5px;
+}
+
+
+#curr_label p{
+	color:#FFF;
+}
+
+
+.grade_container{
+	width:100%;
+	background-color:#f9f9f9;	
+}
+
+
+.grade_container{
+	height:280px;
+}
+
+
+.grade_container_odd{
+	background-color:#f9f9f9;
+}
+
+
+.tablet{
+	background-color:#ededed;
+}
+
+
+#bt_contents_math,
+#bt_contents_english,
+#bt_contents_physics,
+#bt_contents_chemistry,
+#bt_contents_biology{
+	float:left;
+	margin-left:20px;
+	height:30px;
+	margin-top:5px;
+	position:relative;
+	background-image:none;
+	width:auto;	
+}
+
+
+#contents_subjects{
+	display:none;
+}
+
+
+.mobile_contents_subject_btn{
+	display:block;
+}
+
+
+#mobile_subject_arrow{
+	display:block;
+}
+
+
+.section_title_bar_contents{
+	z-index:50;
+    position:fixed;
+	top:40px;
+	display:block;
+	width:100%;
+}
+
+
+#contents_math,
+#contents_english,
+#contents_physics,
+#contents_chemistry,
+#contents_biology{
+	margin-top:80px;
+}
+
+
+#bt_contents_math p.bar_title,
+#bt_contents_english p.bar_title,
+#bt_contents_physics p.bar_title,
+#bt_contents_chemistry p.bar_title,
+#bt_contents_biology p.bar_title{
+	font-family:"Arial Black", Gadget, sans-serif;
+	padding:0;
+	margin:0;
+	line-height:30px;
+	font-size:32px;
+	text-align:left;
+	display:inline-block;
+	text-transform:capitalize;
+	color:#FFF;
+}
+
+
+#grade_select{
+	width:100%;
+}
+
+
+.curr_select{
+	display:none;
+}
+
+
+#curr_label{
+	display:none;
+}
+
+
+#mob_dropdown{
+	display:block;
+}
+
+#contents_banner{
+	height:40px;
+}
+}
+
+
+@media screen and (max-width:375px){
+.title_text{
+	font-size:25px;
+}
+
+
+.single_btn{
+	width:80%;
+}
+
+
+#grade_select_div{
+	margin-bottom:0;
+}
+}

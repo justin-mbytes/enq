@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_top_container{
+	height:300px;
+	width:100vw;
+	display:block;
+	background:url('../img/int_distributors_banner_bg.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+.our-mission-section{
+	background:#62c4ae;
+}
+
+.mission-text-container{
+	width:63%;
+	margin:25px auto 0;
+	text-align:center;
+}
+
+.mission-text{
+	width:90%;
+	color:#FFF;
+	text-align:justify;
+	font-size:25px;
+	display:inline-block;
+	vertical-align:top;
+	line-height:45px;;
+	margin:0;
+}
+
+.quote-inline{
+	width:1%;
+	display:inline-block;
+	margin-top:0;
+	margin-right:50px;
+	margin-left:-120px;
+}
+
+.quote-open{
+	height:40px;
+	width:30px;
+	margin:0 15px 0 15px;
+	display:inline-block;
+	background-image:url('../img/testimonial_individual_quote.png');
+	background-size:cover;
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+/* Partners */
+.partners-image-container{
+	margin-top:50px;
+	text-align:center;
+}
+
+
+.partners-image{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:35px;
+	width:20%;
+	height:70px;
+}
+
+.partners-image:last-child{
+	margin-right:0;	
+}
+
+.microsoft-logo{
+	background:url('../img/microsoft_logo.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.samsung-logo{
+	background:url('../img/samsung_logo.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.aamt-logo{
+	background:url('../img/aamt_logo.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.apf-logo{
+	background:url('../img/apf_logo.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.int_distributor_company{
+	color:#383838;
+	font-weight:bold;
+	line-height:none;
+}
+
+.int_distributor_link{
+	color:#3CF;
+	text-decoration:none;
+}
+
+.int_logo{
+	height:100px;
+	width:350px;
+	display:inline-block;
+	background-size:contain;
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	padding:0;
+	margin:0;
+}
+
+
+#int_logo_01{
+	height:60px;
+	background-image:url('../img/int_logo_01.png');
+}
+
+
+#int_logo_02{
+	height:60px;
+	background-image:url('../img/int_logo_02.png');
+}
+
+
+#int_logo_03{
+	height:80px;
+	background-image:url('../img/int_logo_03.png');
+}
+
+
+#int_logo_04{
+	height:150px;
+	background-image:url('../img/int_logo_04.png');
+}
+
+
+/** Media Queries **/
+@media screen and (max-width:1090px){
+.mission-text-container{
+	width:95%;	
+}	
+
+.quote-inline{
+	margin-left:-65px;	
+}
+
+.mission-text{
+	width:90%	
+}
+}
+
+@media screen and (max-width:850px){
+#main_top_container{
+	height:200px;	
+}
+
+.quote-open{
+	display:none;	
+}
+
+.mission-text-container{
+	width:100%;	
+}	
+
+.mission-text{
+	width:95%;
+	font-size:21px;
+	line-height:30px;
+	margin-left:0;
+}
+}
+
+@media screen and (max-width:800px){
+.partners-image{
+	width:100%;	
+	background-position:center;
+	margin-bottom:20px;
+	margin-right:0;
+}
+
+.microsoft-logo, .samsung-logo, .aamt-logo, .apf-logo{
+	width:50%;
+}	
+
+.partners-image:last-child{
+	margin-bottom:0;	
+}
+}
+
+@media screen and (max-width:720px){
+#main_top_container{
+	height:150px;	
+}	
+
+.microsoft-logo, .samsung-logo, .aamt-logo, .apf-logo{
+	width:80%;	
+}
+}
+
+@media screen and (max-width:630px){
+.partners-image{
+	background-size:75%;	
+}
+}
+
+@media screen and (max-width:425px){
+.partners-image{
+	background-size:contain;	
+}
+
+#int_logo_01{
+	height:60px;
+	width:300px;
+}
+
+#int_logo_02{
+	height:60px;
+	width:300px;
+}
+
+#int_logo_03{
+	height:80px;
+	width:260px;
+}
+
+#int_logo_04{
+	height:100px;
+	width:150px;
+}
+}
+
+@media screen and (max-width:320px){
+.text-section{
+	width:90%;
+	font-size:18px;
+}
+
+.section-grey-heading{
+	margin:0 auto;
+	width:90%;
+}
+
+#int_logo_01{
+	height:50px;
+	width:250px;
+}
+
+#int_logo_02{
+	height:50px;
+	width:260px;
+}
+
+#int_logo_03{
+	height:60px;
+	width:230px;
+}
+
+#int_logo_04{
+	height:90px;
+	width:120px;
+}
+}

@@ -1,0 +1,523 @@
+@charset "utf-8";
+/* CSS Document */
+#main_top_container{
+	height:300px;
+	width:100vw;
+	display:block;
+    position: relative;
+	background:url('../img/howitworks_banner_bg.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.hiw-section-grey{
+	background:#f4f4f4;
+}
+
+.hiw-section-grey:first-child{
+	border-bottom:none;	
+}
+
+.hiw-last-section{
+	margin-bottom:100px;	
+}
+
+#hiw .text-section{
+	width:75%;	
+}
+
+#hiw .section-grey-heading{
+	margin-bottom:55px;	
+}
+
+.hiw-columns{
+	width:48%;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.step-4-left-column{
+	width:65%;	
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:55px;
+}
+
+.step-4-right-column{
+	width:25%;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.hiw-columns-margin{
+	margin-top:35px;	
+}
+
+.hiw-headings{
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:15px;
+	text-align:left;
+}
+
+.step-1-heading{
+	color:#f26d38;	
+}
+
+.step-2-heading{
+	color:#218f48;	
+}
+
+.step-3-heading{
+	color:#21acd8;	
+}
+
+.step-4-heading{
+	color:#b5325e;	
+}
+
+.mockup-container{
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+
+.report-mockups{
+	width:100%;
+	height:376px;
+	background:url('../img/report_mockup.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin-left:25px;
+	background-position:center;
+}
+
+.wlp-mockup{
+	width:100%;
+	height:325px;
+	background:url('../img/wlp_mockup.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+
+.step-4-kids{
+	width:100%;
+	height:380px;
+	background:url('../img/step_4_image.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+
+/* Personalised learning dot points */
+.hiw-columns span{
+	font-weight:bold;	
+}
+
+ul.no_bullet{
+	list-style-type:none;
+	padding:0;
+	margin:0 0 0 25px;
+	line-height:35px;
+}
+
+
+.subject-line li{
+	box-sizing:border-box;
+	padding-left:15px;
+	padding-right:15px;
+	margin:0 0 15px 0;
+}
+
+.subject-line li:last-child{
+	margin-bottom:0;	
+}
+
+.green-line{
+	border-left: 5px solid #218f48;
+}
+
+.blue-line{
+	border-left:5px solid #21acd8;	
+}
+
+/* You'll never have to guess - parallax section */
+.never-guess{
+	height:350px;
+	background:url('../img/never_guess_banner_bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-sizing:border-box;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	color:#FFF;
+	font-size:45px;	
+	padding-top:9%;
+	padding-bottom:0;
+}
+
+.link_to_all_kids{
+    margin-top: 30px;
+}
+
+.ke_way_text_banner{
+    padding-top:20px;
+    padding-bottom:20px;
+	overflow:visible;
+}
+
+.pricing_text{
+	width:80%;
+    font-size:32px;
+	white-space:initial;
+}
+
+.button-width{
+    display: block;
+    width: 190px;
+    margin: 0 auto;
+}
+
+.learn-more-btn{
+	width:100%;
+    font-size: 21px;
+    font-weight: normal;
+	box-sizing:border-box;
+	padding:10px;
+	background:#ed1568;
+	border-radius:25px;
+	text-align:center;
+	margin:20px auto;
+	cursor:pointer;
+	color:#FFF;
+}
+
+.learn-more-btn:hover{
+	background:#C91B62;
+	transition:all 0.3s ease 0s;
+}
+
+#every_child_title{
+	margin:100px auto;
+	margin-bottom:50px;
+	width:80%;
+	text-align:center;
+}
+
+#state_banner_container{
+	width:100%;
+	display:block;
+	height:280px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:100px;
+}
+
+.state_banner_option_box_wrapper{
+	height:280px;
+	width:20%;
+	display:block;
+	margin:0 auto;
+	float:left;
+	cursor:pointer;
+	overflow:hidden;
+	text-align:center;
+}
+
+.state_banner_option_box{
+	height:100%;
+	width:100%;
+	display:block;
+	margin:0 auto;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+}
+
+.state_banner_option_box:hover{
+	-webkit-transform:scale(1.1,1.1); 
+	transform:scale(1.1,1.1);
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.state_banner_option_box p{
+	color:#FFF;
+	text-align:center;
+	clear:both;
+	margin:200px auto;
+	display:inline-block;
+	padding:5px;
+	font-size:21px;
+}
+
+.state_banner_option_box p#state_text_01{
+	background-color:#ff55a1;
+}
+
+.state_banner_option_box p#state_text_02{
+	background-color:#cf2c00;
+}
+
+.state_banner_option_box p#state_text_03{
+	background-color:#d9a300;
+}
+
+.state_banner_option_box p#state_text_04{
+	background-color:#e37275;
+}
+
+.state_banner_option_box p#state_text_05{
+	background-color:#056f73;
+}
+
+#state_banner_option_box_01{
+	background-image:url('../img/stage_images_01.png');
+}
+
+#state_banner_option_box_02{
+	background-image:url('../img/stage_images_02.png');
+}
+
+#state_banner_option_box_03{
+	background-image:url('../img/stage_images_03.png');
+}
+
+#state_banner_option_box_04{
+	background-image:url('../img/stage_images_04.png');
+}
+
+#state_banner_option_box_05{
+	background-image:url('../img/stage_images_05.png');
+}
+
+.hiw-columns span.read_more_link{
+	font-weight:normal;
+}
+
+.hiw_br{
+	display:none;
+}
+
+.state_banner_option_box_subject{
+	height:50%;
+	width:100%;
+	display:table;
+	margin:0 auto;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	background-color:#F06;
+}
+
+#state_banner_option_box_07{
+	background-color:#06C;
+}
+
+#state_text_06,
+#state_text_07{
+	display:table-cell; 
+	vertical-align:middle; 
+	text-align:center;
+	font-size:30px;
+	color:#FFF;
+}
+
+/** Media Queries **/
+@media screen and (max-width:1500px){
+    #hiw .text-section{
+        width:100%;	
+    }
+    .step-4-kids{
+        height:280px;	
+    }
+    .never-guess{
+        padding-top:10%;	
+    }	    
+}
+
+@media screen and (max-width:1200px){
+    #main_top_container{
+        height:250px;	
+    }	
+}
+
+@media screen and (max-width:1090px){
+    .quote-text-container{
+        width:85%;	
+    }
+
+    .hiw-columns, .step-4-left-column, .step-4-right-column{
+        width:100%;	
+    }
+
+    .mockup-container{
+
+    }
+
+    .report-mockups{
+        margin: 25px auto 0;
+    }
+
+    .wlp-mockup{
+        margin:0 auto 25px;	
+    }
+
+    .step-4-kids{
+        margin:25px auto 0;	
+    }
+
+    .never-guess{
+        background-attachment:inherit;	
+        height:270px;
+        font-size:40px;	
+    }
+}
+
+@media screen and (max-width:1024px){
+	#state_banner_container{
+		height:auto; 
+	}
+	
+	.state_banner_option_box_wrapper{
+		height:250px;
+		width:50%;
+		display:block;
+	}
+	
+	#state_banner_option_box_wrapper_04,
+	#state_banner_option_box_wrapper_05{
+		width:50%;
+	}
+	
+	.state_banner_option_box p{
+		margin:180px auto;
+		padding:5px;
+	}
+}
+
+@media screen and (max-width:850px){
+    #main_top_container{
+        height:200px;	
+    }	
+
+    #hiw .text-section{
+        width:95%;
+        font-size:20px;
+    }
+
+    .hiw-last-section{
+        margin-bottom:0;	
+    }
+}
+
+
+@media screen and (max-width:720px){
+    #main_top_container{
+        height:150px;	
+    }	
+
+    #hiw .text-section{
+        font-size:18px;
+        line-height:30px;
+        text-align:left;
+    }
+
+    .report-mockups, .wlp-mockup, .step-4-kids{
+        height:200px;	
+    }
+
+    .never-guess{
+        height:200px;
+        font-size:30px;
+        padding-top:10%;
+    }
+}
+
+@media screen and (max-width:430px){
+	.hiw_new_line{
+		height:1px;
+		width:100%;
+		display:block;
+	}
+
+	.hiw_nbsp{
+		display:none;
+	}
+}
+
+@media screen and (max-width:425px){	
+    .never-guess{
+        font-size:25px;
+        padding-top:14%;
+    }
+	
+	#state_banner_container{
+		height:auto;
+	}
+	
+	.state_banner_option_box_wrapper,
+	#state_banner_option_box_wrapper_04,
+	#state_banner_option_box_wrapper_05{
+		height:200px;
+		width:100%;
+	}
+
+	.state_banner_option_box p{
+		margin:150px auto;
+		padding:5px;
+	}
+	
+	#tutoring_from{
+		min-width:inherit;
+		width:85%;
+		white-space:normal;
+		overflow:auto;
+   		word-break:normal;
+	}
+}
+
+@media screen and (max-width:375px){
+	.pricing_text{
+		min-width:280px;
+		font-size:26px;
+	}
+	
+	.state_banner_option_box_wrapper,
+	#state_banner_option_box_wrapper_04,
+	#state_banner_option_box_wrapper_05{
+		height:160px;
+		width:100%;
+	}
+
+	.state_banner_option_box p{
+		margin:125px auto;
+		padding:5px;
+	}
+	
+	.state_banner_option_box{
+		background-position:center;
+	}
+}	
+
+@media screen and (max-width:350px){
+	#combines_title,
+	.hiw-headings{
+		width:90%;
+		margin:0 auto;
+		text-align:center;
+	}
+	
+	#every_child_title{
+		width:90%;
+		margin:50px auto;
+	}
+}

@@ -1,0 +1,893 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_top_container_maths{
+	height:300px;
+	width:100vw;
+	display:block;
+	background:url('../img/maths_tutoring_banner.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#main_top_container_english{
+	height:300px;
+	width:100vw;
+	display:block;
+	background:url('../img/english_tutoring_banner.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.school-subheading{
+	font-weight:bold;
+	color:#565656;	
+	font-size:21px;
+}
+
+#maths_tutoring_page .text-section, #english_tutoring_page .text-section{
+    width: 75%;
+}
+
+.subjects-section-grey{
+	background:#f4f4f4;
+}
+
+.subjects_heading_orange{
+	color:#f26d38;	
+}
+
+.subjects_heading_green{
+	color:#218f48;	
+}
+
+.subjects_heading_blue{
+	color:#0099ff;	
+}
+
+.subjects_heading_maroon{
+	color:#b5325e;	
+}
+
+#rewards_contain{
+	position:relative;
+}
+
+.subjects_columns{
+	width:45%;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.subjects_columns_text{
+	width:45%;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+#subjects_columns_image{
+	position:relative;
+}
+
+#comp_winner_new{
+	height:680px;
+	width:580px;
+	display:block;
+	position:absolute;
+	background-image:url('../img/comp_winner_new2.png');
+	background-size:contain;
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	bottom:0;
+	right:15%;
+	z-index:99;
+}
+
+#maths_personalised_learning_list, #english_personalised_learning_list{
+    margin-left: 0px;
+}
+
+.maths_personalised_learning_image{
+	background-image:url(../img/report_mockup.png);
+    width: 100%;
+    height: 309px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 45px;
+}
+
+.english_personalised_learning_image{
+	background-image:url(../img/english_tutoring_1.png);
+    width: 100%;
+    height: 309px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 45px;
+}
+
+.english_how_works{
+    background-image:url(../img/english_tutoring_2.png);
+    width: 90%;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.real_tutors_image_container{
+    width: 100%;
+    height: auto;
+}
+
+.real_tutors_image{
+    background-image: url(../img/tutor_image.jpg);
+    width: 100%;
+    height: 195px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.maths_rewards_image{
+	background-image:url(../img/maths_comp_winner.png);
+    width: 100%;
+    height: 309px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;;
+    margin-left: 25px;
+}
+
+.english_rewards_image{
+	background-image:url(../img/english_tutoring_rewards.png);
+    width: 80%;
+    height: 309px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.maths_rewards_image_mobile, .english_rewards_image_mobile{
+    display: none;
+}
+
+/* Maths parallax section */
+#maths_tutoring_parallax{
+	height:auto;
+    background-color:#62c4ae;
+	background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-sizing:border-box;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	color:#FFF;
+	font-size:32px;
+}
+
+.testimonial_person{
+    font-size: 22px;
+    font-style: italic;
+}
+
+#maths_tutoring_parallax.section_container{
+}
+
+.parallax_text{
+    line-height: 1.5;
+    display: inline-block;
+}
+
+/* English parallax section */
+#english_tutoring_parallax{
+	height:auto;
+	background-color:#62c4ae;
+    background-attachment: fixed;
+    background-position:;
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-sizing:border-box;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	color:#FFF;
+	font-size:32px;	
+}
+
+.subjects_quad_table{
+    max-width: 80%;
+    margin: 0 auto;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 25px;
+}
+
+.subjects_quad_row{
+    display: table-row;
+}
+
+.subjects_quad_cells{
+    width: 48%;
+    display: table-cell;
+    box-sizing: border-box;
+    padding:25px;
+    line-height: 45px;
+    background: #f4f4f4;
+}
+
+.subjects_quad_cells_text, ul li{
+    color: #565656;
+}
+
+.subjects_quad_cells li{
+    line-height: 45px;
+}
+
+.subjects_quad_cells_heading{
+    font-weight: bold;
+}
+
+.tutoring_headings{
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:15px;
+	text-align:left;    
+}
+
+/* Our programs include section */
+.include-section{
+	background:#62c4ae;
+	position:relative;
+}
+
+#opi_title{
+	margin-top:20px;
+}
+
+.include-container{
+	margin-top:15px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+.include-item{
+	width:18%;
+	display:inline-block;
+	text-align:center;
+	margin:0 auto;
+}
+
+.include-qn-icon{
+	width:80px;
+	height:100px;
+	background:url('../img/me_qn_icon.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	margin:0 auto;
+}
+
+.include-test-icon{
+	width:80px;
+	height:100px;
+	background:url('../img/me_test_icon.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	margin:0 auto;
+}
+
+.include-lsn-icon{
+	width:80px;
+	height:100px;
+	background:url('../img/me_lsn_icon.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	margin:0 auto;
+}
+
+.include-games-icon{
+	width:80px;
+	height:100px;
+	background:url('../img/me_games_icon.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	margin:0 auto;
+}
+
+.include-support-icon{
+	width:80px;
+	height:100px;
+	background:url('../img/me_support_icon.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	margin:0 auto;
+}
+
+.include-text{
+	margin-top:15px;
+	color:#FFF;
+	font-size:25px;
+}
+
+/* Subjects section */
+.subjects_container_last{
+	margin-right:0;
+}
+
+.subjects_container p{
+	color:#363636;
+	box-sizing:border-box;
+	padding:35px;
+	padding-top:35px;
+}
+
+.subject_section_title{
+	color:#FFF;
+	text-align:center;
+	margin-top:4.5%;
+	font-size:40px;
+	line-height:45px;
+	font-weight:bold;
+}
+
+.section_title_dark{
+	color:#242424;
+}
+
+.red{
+	color:#BB1F40;
+}
+
+.blue{
+	color:#09F;
+}
+
+.green{
+	color:#090;
+}
+
+ul.no_bullet{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	margin-top:20px;
+	margin-left:35px;
+	margin-bottom:30px;	
+}
+
+ul.quad_cells_no_bullet{
+ 	list-style-type:none;
+	padding:0;
+	margin:0;
+	margin-top:20px;
+	margin-bottom:30px;	   
+}
+
+.subject-line li{
+	box-sizing:border-box;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.red-line{
+	border-left: 5px solid #bb1f40;
+}
+
+.blue-line{
+	border-left:5px solid #0099ff;	
+}
+
+.green-line{
+    border-left: 5px solid #218f48;
+}
+
+.orange-line{
+	border-left: 5px solid #f26d38;	
+}
+
+.maroon-line{
+	border-left: 5px solid #b5325e;	
+}
+
+.contents_btn{
+	width:300px;
+	background:#ed1568;
+	border-radius:25px;
+	text-align:center;
+	margin:20px auto;
+    padding: 10px;
+	cursor:pointer;
+	bottom:0px;
+}
+
+.contents_btn a{
+	color:#FFF;
+	font-size:21px;
+	line-height:auto;
+	padding:0;
+	margin:0;
+	font-family:'Lato', sans-serif;
+}
+
+.contents_btn:hover{
+	background:#C91B62;
+	transition:all 0.3s ease 0s;
+}
+
+.spacer{
+	height:80px;
+	width:100%;
+	display:none;
+}
+
+#maths_tutors_image{
+	height:350px;
+	width:100%;
+	display:block;
+	background-image:url('../img/maths_tutors_image.jpg');
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+#includes_br{
+	display:none;
+}
+
+
+#comp_winner_new2_mobile{
+	display:none;
+	width:100%;
+	height:500px;
+	margin:0 auto;
+	background-image:url('../img/comp_winner_new2_mobile.png');
+	background-size:contain;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+
+#maths_assessment_section{
+	position:relative;
+}
+
+#maths_personalised_learning_image{
+	bottom:0;
+	right:0;
+	background-image:url("../img/report_mockup.png");
+    width:50%;
+    height:100%;
+	background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+	position:absolute;
+}
+
+
+/** Media Queries **/
+@media screen and (max-width:1600px){
+    .subjects_container{
+        min-height:1150px;	
+    }
+}
+
+@media screen and (max-width:1500px){
+	.subjects_columns_text{
+		width:0%;
+	}
+
+	.subjects_columns_text{
+		width:55%;
+	}
+	
+	#comp_winner_new{
+		height:680px;
+		width:580px;
+		right:50px;
+	}
+}
+	
+
+@media screen and (max-width:1550px){
+    .english_how_works{
+        width: 90%;
+        background-position: left;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .subjects_quad_table{
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width:1350px){
+	.subjects_columns_text{
+		width:55%;
+	}
+	
+	#comp_winner_new{
+		height:780px;
+		width:680px;
+		right:-120px;
+	}
+}
+
+@media screen and (max-width:1300px){
+    .subjects_container{
+        min-height:700px;
+    }
+
+    .subjects_container p{
+        font-size:18px;
+        line-height:23px;
+    }
+
+    ul.no_bullet{
+        line-height:30px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #main_top_container_maths, #main_top_container_english{
+        height:250px;
+    }   
+    
+    .subjects_quad_table{
+        max-width: 90%;
+    }
+    .subjects_columns{
+    }
+    .maths_personalised_learning_image, .english_personalised_learning_image{
+        background-position: center;
+        height: 230px;
+        margin-left:0;
+        margin-top: 25px;
+    }
+    .maths_rewards_image, .english_rewards_image{
+        background-position: center;
+    }
+    .maths_rewards_image_desktop, .english_rewards_image{
+        display: none;
+    }
+    .maths_rewards_image_mobile, .english_rewards_image_mobile{
+    }
+    .english_rewards_image_mobile{
+        width: 100%;
+    }
+    .english_how_works{
+        width: 100%;
+        background-position: center;
+        margin-bottom: 25px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:1150px){
+	#comp_winner_new{
+		height:800px;
+		width:750px;
+		right:-250px;
+	}
+}
+
+@media screen and (max-width:1100px){
+    .subjects_container{
+        min-height:670px;
+    }
+
+    .subjects_container p{
+        padding:20px;
+        font-size:15px;
+        line-height:20px;
+    }
+
+    .subject_section_title{
+        font-size:30px;
+        line-height:30px;
+    }
+
+
+    ul.no_bullet{
+        margin-left:20px;
+        line-height:35px;
+    }
+
+    .contents_btn{
+        margin:0 auto;
+        margin-left:auto;
+        margin-right:auto;
+        left:0;
+        right:0;
+        bottom:30px;
+    }
+}
+
+@media screen and (max-width:1140px){
+    .include-item{
+        vertical-align:top;
+    }
+
+    #tutorsupport-break br{
+        display:none;
+    }
+}
+
+@media screen and (max-width:1025px){
+	#assessment_text{
+		width:100%;
+	}
+	
+	#maths_personalised_learning_image{
+		margin:50px auto;
+		margin-bottom:30px;
+		width:100%;
+		height:350px;
+		position:relative;
+	}
+	
+	#maths_tutors_image{
+		height:250px;
+	}
+}
+
+@media screen and (max-width:975px){
+    .subjects_quad_table{
+        max-width: 100%;
+    }   
+}
+
+@media screen and (max-width:950px){
+	#comp_winner_new{
+		display:none;
+	}
+	
+	.subjects_columns_text{
+		width:100%;
+	}
+	
+	.subjects_columns_text{
+		margin-bottom:400px;
+	}
+	
+	#comp_winner_new2_mobile{
+		position:absolute;
+		bottom:0;
+		left:0;
+		display:block;
+	}
+}
+
+@media screen and (max-width:850px){
+    #main_top_container_maths, #main_top_container_english{
+        height:200px;	
+    }	
+
+    #subjects{
+        padding-bottom:0;
+    }
+
+	.subjects_container{
+        width:100%;
+        min-height:inherit;
+        margin:40px auto;
+        margin-bottom:0;
+        height:auto;
+        margin-right:0;
+    }
+
+    .subjects_container_first{
+        margin-top:60px;
+    }
+
+    .subjects_container_last{
+        margin-bottom:70px;
+    }
+
+    .subjects_container p{
+        display:block;
+    }
+
+    ul.no_bullet{
+        display:block;
+    }
+
+    .spacer{
+        display:block;
+    }
+    
+    .subjects_quad_table{
+        display: block;
+    }
+    
+    .subjects_quad_row{
+        display: block;
+    }    
+    
+    .subjects_quad_cells{
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    .subjects_quad_cell_first{
+        margin-top: 0;
+    }
+	
+	#hmww_text{
+		width:75%;
+	}
+}
+
+@media screen and (max-width:800px){
+	#includes_br{
+		display:block;
+	}
+
+    .include-item{
+        width:30%;
+        margin-top:30px;
+    }
+
+    .include-item br{
+        display:none;	
+    }
+    .include-qn-icon, .include-test-icon, .include-lsn-icon, .include-games-icon, .include-support-icon{
+        width:40px;
+        height:50px;
+    }
+    .include-text{
+        font-size:21px;	
+    }
+    .real_tutors_image{
+        background-image: url(../img/tutor_image_mobile.png);
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 150px;
+    }    
+    .maths_rewards_image_mobile, .english_rewards_image{
+        height: 200px;
+    }
+    #maths_tutoring_parallax, #english_tutoring_parallax{
+        font-size: 30px;
+        height: auto;
+        font-weight: normal;
+        background-attachment:inherit;
+    }
+    #maths_tutoring_parallax.section_container{
+    line-height: normal;
+    }
+    .testimonial_person{
+        font-size: 16px;
+    }
+    .spacer{
+        display: none;
+    }
+    .contents_btn{
+        margin-top: 25px;
+    }
+	
+	#maths_tutors_image{
+		height:200px;
+	}
+}
+
+@media screen and (max-width:720px){
+    #main_top_container_maths, #main_top_container_english{
+        height:150px;	
+    }
+
+    #subjects{
+        background:#f5f5f5;	
+    }
+
+    .subjects_container{
+        background:#FFF;	
+    }
+	
+	.subjects_quad_cells{
+		font-size:18px;
+		line-height:30px;
+		width:80%;
+		margin:0 auto;
+		margin-top:20px;
+	}
+	
+	.subjects_columns_text{
+		margin-bottom:350px;
+	}
+}
+
+@media screen and (max-width:630px){
+    .include-item{
+        width:100%;
+		border-bottom:6px solid rgba(255,255,255,0.1);
+        box-sizing:border-box;
+        padding-bottom:15px;
+	}
+
+    .include-item:last-child{
+        border:none;	
+        padding-bottom:0;
+    }
+}
+
+@media screen and (max-width:610px){
+	#maths_personalised_learning_image{
+		margin:30px auto;
+		margin-bottom:30px;
+		width:90%;
+		height:250px;
+		position:relative;
+	}
+}
+
+@media screen and (max-width:600px){
+	.subjects_columns_text{
+		margin-bottom:300px;
+	}
+}	
+
+@media screen and (max-width:550px){
+	#maths_tutors_image{
+		background-position:left center;
+	}
+	
+	.parallax_text{
+		line-height:35px;
+		font-size:22px;
+		width:80%;
+		margin:20px auto;
+		min-width:200px;
+	}
+	
+	#maths_personalised_learning_list li,
+	.subjects_quad_cells ul li{
+		font-size:18px;
+		line-height:25px;
+		margin-top:25px;
+	}
+}
+
+@media screen and (max-width:500px){
+	.subjects_columns_text{
+		margin-bottom:200px;
+	}
+}	
+
+@media screen and (max-width:426px){
+	#maths_personalised_learning_image{
+		margin:20px auto;
+		margin-bottom:20px;
+		width:80%;
+		height:200px;
+	}
+	
+	#mt_title{
+		margin-top:20px;
+	}
+	
+	#maths_tutors_image{
+		height:150px;
+	}
+	
+	.subjects_quad_cells{
+		width:90%;
+	}
+}
+
+@media screen and (max-width:360px){
+	.subjects_columns_text{
+		margin-bottom:150px;
+	}
+}

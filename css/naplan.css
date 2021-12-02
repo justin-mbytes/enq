@@ -1,0 +1,703 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_top_container{
+	height:300px;
+	width:100vw;
+	display:block;
+	background:url('../img/naplan_banner.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+.naplan_list{
+    background-color: #f4f4f4;
+}
+
+ul.no_bullet{
+	list-style-type:none;
+	padding:15px 0 15px 15px;
+	margin:0;
+	margin-top:20px;
+	margin-bottom:30px;	
+}
+
+.green-line{
+    border-left: 5px solid #62c4ae;
+}
+
+.md_report{
+    background-image: url(../img/naplan_md_report.png);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: center center;
+    width: 100%;
+    height:500px;
+    margin: 0;
+    padding: 0;
+}
+
+.p_space_remove{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/**********************************************************************/
+
+#naplan_heading{
+	margin-top:0;
+}
+
+#naplan_mid_section{
+	width:100%;
+	height:auto;
+	background-color:#b8d9fa;
+	display:block;
+	margin:0px auto;
+	margin-bottom:0;
+	background-image:url('../img/home_blue_bg.png');
+	background-size:contain;
+	background-position:center top;
+	background-repeat:no-repeat;
+	text-align:left;
+	line-height:35px;
+	font-size:21px;
+	color:#565656;
+}
+
+#naplan_mid_section_container{
+	width:70%;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+	overflow:visible;
+}
+
+#naplan_mid_left_box{
+	width:50%;
+	display:inline-block;
+	padding-bottom:40px;
+	padding-top:70px;
+}
+
+#naplan_mid_right_box{
+	width:48%;
+	height:690px;
+	min-height:200px;
+	display:inline-block;
+	position:absolute;
+	bottom:0;
+	right:20px;
+	marigin-left:20px;
+	z-index:99;
+	background-image:url('../img/naplan_boy_img.png');
+	background-size:contain;
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+
+#naplan_mid_section_title{
+	color:#488bcf;
+	font-size:30px;
+	line-height:45px;
+	text-align:left;
+	width:auto;
+}
+
+#maths_personalised_learning_list{
+	background-color:#a8cfef;
+	background-color:inherit;
+}
+
+#maths_personalised_learning_list li{
+	margin-bottom:20px;
+	background-color:none;
+}
+
+#maths_personalised_learning_list li.li_last{
+	margin-bottom:0;
+}
+
+.bl-line{
+    border-left:5px solid #488bcf;
+}
+
+#naplan_bot_section{
+	padding-top:70px;
+	margin-bottom:0;
+	padding-bottom:0;
+	margin:0 auto;
+}
+
+#naplan_bot_section_text{
+}
+
+ul.a{
+	list-style-position:outside;
+}
+
+ul.a li{
+	list-style-type:square;
+	margin-left:20px;
+	line-height:30px;
+	margin-top:30px;
+}
+
+#ul_custom{
+	list-style:none;
+	padding-left:0;
+	list-style-position:outside;
+}
+
+#ul_custom li::before{
+	display:inline-block;
+	margin:0 15px;
+	font-size:20px;
+	content:'\259F';
+	color:#F60;
+	margin-left:65px;
+}
+
+#ul_custom li{
+	list-style-position:inside;
+	text-indent:-1.5em;
+	line-height:30px;
+	margin-top:30px;
+}
+
+#md_breaker{
+	width:100%;
+	height:auto;
+	min-height:350px;
+	background-color:#fab8ba;
+	display:block;
+	margin:200px auto;
+	margin-bottom:100px;
+	text-align:center;
+	line-height:35px;
+	font-size:21px;
+	color:#565656;
+	position:relative;
+	overflow:visible;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+#md_breaker_img{
+	height:500px;
+	width:90%;
+	margin:0 auto;
+	display:block;
+	bottom:0;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	background-image:url('../img/family_tablet_img_sml.png');
+	background-size:contain;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+
+#naplan_pic1_section,
+#naplan_pic2_section,
+#naplan_pic3_section{
+	width:100%;
+	height:auto;
+	min-height:100px;
+	display:block;
+	margin:70px auto;
+	margin-bottom:50px;
+	text-align:center;
+	line-height:35px;
+	font-size:21px;
+	color:#565656;
+}
+
+#naplan_pic1_section_container,
+#naplan_pic2_section_container,
+#naplan_pic3_section_container{
+	width:70%;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+	overflow:visible;
+	background-color:red;
+}
+
+#naplan_pic1{
+	height:500px;
+	width:60%;
+	display:block;
+	margin:0 auto;
+	background-image:url('../img/naplan_pic1.jpg');
+	background-size:contain;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+#naplan_pic2{
+	height:150px;
+	width:60%;
+	display:block;
+	margin:0 auto;
+	background-image:url('../img/naplan_pic2.png');
+	background-size:contain;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+#naplan_pic3{
+	height:500px;
+	width:60%;
+	display:block;
+	margin:0 auto;
+	background-image:url('../img/naplan_pic3.png');
+	background-size:contain;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin-bottom:200px;
+}
+
+.naplan_bot_text{
+	width:60%;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+
+#win_div{
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+/** Media Queries **/
+@media screen and (max-width:1680px){
+    .md_report{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:1560px){
+	#naplan_mid_right_box{
+		width:60%;
+		height:780px;
+		min-height:200px;
+		right:0;
+		marigin-right:auto;		
+		marigin-left:auto;
+		margin-right:-200px;
+	}
+}
+
+@media screen and (max-width:1450px){
+    .md_report{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:1350px){
+	#md_breaker_img{
+		height:600px;
+		width:100%;
+		margin:0 auto;
+		display:block;
+		margin-left:-20px;
+	}
+}
+
+@media screen and (max-width:1280px){
+	#naplan_mid_left_box{
+		width:60%;
+	}
+
+	#naplan_mid_right_box{
+		background-position:bottom left;
+		width:80%;
+		height:780px;
+		min-height:200px;
+		margin-right:-350px;
+		background-color:inherit;
+	}
+}
+
+@media screen and (max-width:1250px){
+	#md_breaker{
+		margin:150px auto;
+		margin-bottom:0;
+	}
+}
+
+@media screen and (max-width:1200px){
+    #main_top_container{
+        height:250px;	
+    }
+    .md_report{
+        height:350px;
+    }
+	
+	#naplan_pic1{
+		height:400px;
+		width:80%;
+	}
+	
+	#naplan_pic2{
+		height:150px;
+		width:80%;
+	}
+	
+	#naplan_pic3{
+		height:400px;
+		width:80%;
+	}
+}
+
+@media screen and (max-width:1100px){
+	#naplan_heading{
+		margin-top:50px;
+	}
+	
+	#md_breaker{
+		margin:150px auto;
+		margin-bottom:100px;
+	}
+	
+	#md_breaker_img{
+		height:600px;
+		width:120%;
+		margin:0 auto;
+		display:block;
+		margin-left:-200px;
+		margin-bottom:0;
+	}
+	
+	#naplan_bot_section{
+		margin-top:-120px;
+	}
+}
+
+@media screen and (max-width:1020px){
+	#naplan_mid_right_box{
+		width:80%;
+		height:780px;
+		min-height:200px;
+		margin-right:-300px;
+	}
+}
+
+@media screen and (max-width:950px){
+	#naplan_mid_section_container{
+		width:80%;
+	}
+
+	#naplan_mid_right_box{
+		background-image:url('../img/naplan_boy_img_flip.png');
+		width:75%;
+		height:880px;
+		min-height:200px;
+		margin-right:-250px;
+	}
+}
+
+@media screen and (max-width:900px){
+	#md_breaker{
+		margin:150px auto;
+		margin-bottom:100px;
+	}
+	
+	#md_breaker_img{
+		height:600px;
+		width:140%;
+		margin:0 auto;
+		display:block;
+		margin-left:-250px;
+	}
+}
+
+@media screen and (max-width:850px){
+    #main_top_container{
+        height:200px;	
+    }
+}
+
+
+@media screen and (max-width:820px){
+	#naplan_mid_right_box{
+		background-image:url('../img/naplan_boy_img.png');
+		width:75%;
+		height:880px;
+		min-height:200px;
+		margin-right:-250px;
+	}
+}
+
+@media screen and (max-width:769px){
+	#md_breaker{
+		margin:100px auto;
+		margin-bottom:100px;
+	}
+	
+	#md_breaker_img{
+		height:600px;
+		width:150%;
+		margin:0 auto;
+		display:block;
+		margin-left:-350px;
+	}
+	
+	.naplan_bot_text{
+		width:80%;
+	}
+	
+	#naplan_pic1{
+		height:300px;
+		width:80%;
+	}
+	
+	#naplan_pic2{
+		height:100px;
+		width:80%;
+	}
+	
+	#naplan_pic3{
+		height:300px;
+		width:80%;
+	}
+}
+
+@media screen and (max-width:720px){
+    #main_top_container{
+        height:150px;	
+    }
+    .md_report{
+        background-image: url(../img/md_sample_report.png);
+        width: 100%;
+        height: 250px;
+        background-position: top;
+    }
+}
+
+@media screen and (max-width:700px){
+	#naplan_mid_right_box{
+		display:none;
+	}
+	
+	#naplan_mid_left_box{
+		width:100%;
+		display:inline-block;
+		padding-bottom:40px;
+		padding-top:70px;
+	}
+		
+	#naplan_mid_section{
+		margin:0px auto;
+		margin-bottom:10px;
+		line-height:25px;
+		font-size:18px;
+	}
+	
+	#naplan_bot_section{
+		padding-top:0;
+	}
+	
+	#md_breaker{
+		margin:100px auto;
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+	
+	#md_breaker_img{
+		height:600px;
+		width:180%;
+		margin:0 auto;
+		display:block;
+		margin-left:-450px;
+	}
+	
+	#naplan_bot_section{
+		margin-top:0;
+	}
+}
+
+@media screen and (max-width:700px){
+	#md_breaker_img{
+		height:420px;
+		width:150%;
+		margin:0 auto;
+		display:block;
+		margin-left:-150px;
+		background-image:url('../img/family_tablet_img_sml_notab.png');
+		background-size:contain;
+	}
+}
+
+@media screen and (max-width:565px){
+	#naplan_pic1{
+		height:230px;
+		width:85%;
+	}
+	
+	#naplan_pic2{
+		height:80px;
+		width:85%;
+	}
+	
+	#naplan_pic3{
+		height:230px;
+		width:85%;
+	}
+}
+
+@media screen and (max-width:500px){
+	#md_breaker_img{
+		height:420px;
+		width:150%;
+		margin:0 auto;
+		display:block;
+		margin-left:-100px;
+	}
+	
+	.naplan_bot_text{
+		width:80%;
+	}
+	
+	#naplan_pic1{
+		height:250px;
+		width:80%;
+	}
+	
+	#naplan_pic2{
+		height:80px;
+		width:80%;
+	}
+	
+	#naplan_pic3{
+		height:250px;
+		width:80%;
+	}
+}
+
+@media screen and (max-width:450px){
+	#md_breaker{
+		margin:150px auto;
+		margin-bottom:100px;
+	}
+	
+	#md_breaker_img{
+		height:480px;
+		width:180%;
+		margin:0 auto;
+		display:block;
+		margin-left:-180px;
+	}
+	
+	#naplan_bot_section{
+		margin-top:-100px;
+	}
+}
+
+@media screen and (max-width:426px){
+	#naplan_mid_section_container{
+		width:90%;
+	}
+	
+	.naplan_bot_text{
+		width:90%;
+		line-height:25px;
+		font-size:18px;
+	}
+	
+	#naplan_pic1{
+		height:180px;
+		width:90%;
+		margin-bottom:0;
+	}
+	
+	#naplan_pic2{
+		height:50px;
+		width:90%;
+		margin-bottom:0;
+	}
+	
+	#naplan_pic3{
+		background-image:url('../img/naplan_pic3_mobile.png');
+		height:630px;
+		width:90%;
+		margin-bottom:100px;
+	}
+	
+	#naplan_pic1_section,
+	#naplan_pic2_section,
+	#naplan_pic3_section{
+		margin-bottom:10px;
+	}
+}
+
+@media screen and (max-width:385px){
+	#md_breaker{
+		margin:80px auto;
+		margin-bottom:100px;
+	}
+	
+	#md_breaker_img{
+		height:480px;
+		width:180%;
+		margin:0 auto;
+		display:block;
+		margin-left:-150px;
+		min-width:676px;
+	}
+	
+	#naplan_pic1_section{
+		margin-top:0px;
+	}
+	
+	#naplan_pic2_section,
+	#naplan_pic3_section{
+		margin-top:30px;
+	}
+	
+	#naplan_pic3{
+		height:560px;
+	}
+}
+
+@media screen and (max-width:321px){
+	#naplan_bot_section_text{
+		text-align:center;
+	}
+	
+	ul.a li{
+		list-style-type:none;
+		margin-left:0;
+	}
+	
+	#md_breaker{
+		margin:80px auto;
+		margin-bottom:100px;
+	}
+	
+	#md_breaker_img{
+		height:480px;
+		width:180%;
+		margin:0 auto;
+		display:block;
+		margin-left:-180px;
+	}
+	
+	#naplan_pic1{
+		height:150px;
+		width:90%;
+	}
+	
+	#naplan_pic2{
+		height:40px;
+		width:90%;
+	}
+	
+	#naplan_pic3{
+		height:480px;
+		min-height:480px;
+	}
+}

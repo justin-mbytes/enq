@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+#aplus_swirl{
+	display:none;
+}
+
+
+#aplus_bigger{
+	display:none;
+}
+
+
+#table_left{
+	display:none;
+}
+
+
+#table_right{
+	float:left;
+}
+
+
+#print_div{
+	display:none;
+}
+
+
+#print_div_bottom{
+	display:none;
+}
+
+
+#intro{
+	margin:10px 0px 15px 0px;
+	float:none;
+}
+
+
+.title{
+	font-size:30px;
+	line-height:55px;
+}
+
+
+#table1{
+	float:none;
+}
+
+
+#container{
+	height:2800px;
+}
+
+
+#content{
+	height:2800px;
+}
+
+
+
+#ke{
+	display:block;	
+}
+
+
+
+
+
+
